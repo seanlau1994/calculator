@@ -1,0 +1,80 @@
+#buttons{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,80px); 
+    grid-template-areas: 
+        "AC AC Divide Multiply"
+        "Seven Eight Nine Subtract"
+        "Four Five Six Add"
+        "One Two Three Equal"
+        "Zero Zero Decimal Equal";
+    * {
+        color: white;
+        font-size: large;
+        background-color:#4D4D4D;
+        margin:2px;
+        border-radius:2px;
+    }
+    *:hover{
+        color:black;
+        border:1px solid white;
+    }
+    #clear{
+        grid-area: AC;
+        background-color:#AC3A39;
+    }
+    #divide{
+        grid-area: Divide;
+        background-color:#666666;
+    }
+    #multiply{
+        grid-area: Multiply;
+        background-color:#666666;
+    }
+    #subtract{
+        grid-area: Subtract;
+        background-color:#666666;
+    }
+    #add{
+        grid-area: Add;
+        background-color:#666666;
+    }
+    #equals{
+        grid-area: Equal;
+        background-color:#004466;
+    }
+    #decimal{
+        grid-area: Decimal;
+    }
+    #zero{
+        grid-area: Zero;
+    }
+    #one{
+        grid-area: One;
+    }
+    #two{
+        grid-area: Two;
+    }
+    #three{
+        grid-area: Three;
+    }
+    #four{
+        grid-area: Four;
+    }
+    #five{
+        grid-area: Five;
+    }
+    #six{
+        grid-area: Six;
+    }
+    #seven{
+        grid-area: Seven;
+    }
+    #eight{
+        grid-area: Eight;
+    }
+    #nine{
+        grid-area: Nine;
+    }
+}
