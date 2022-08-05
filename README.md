@@ -1,5 +1,5 @@
-## Calculator Coded by React
+### Calculator Coded by React
 
-## state managed by redux
+### state managed by redux
 
-## Click [Calculator](https://seanlau1994.github.io/calculator/) to view 
+### Click [Calculator](https://seanlau1994.github.io/calculator/) to view 
